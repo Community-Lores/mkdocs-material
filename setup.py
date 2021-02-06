@@ -1,4 +1,5 @@
 # Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+# Copyright (c) 2020 The Pins Team and its contributors
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to
@@ -63,7 +64,7 @@ setup(
     install_requires = install_requires,
     entry_points = {
         "mkdocs.themes": [
-            "material = material",
+            "material-theme-customized = material",
         ]
     },
     zip_safe = False
